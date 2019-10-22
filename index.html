@@ -10,7 +10,7 @@
 <script src="./js/IMIClient.js"></script>
 <script>
     try {
-        var config = new IMI.ICConfig(appId, clientKey);
+        var config = new IMI.ICConfig("NE22080544", clientKey);
         IMI.IMIconnect.startup(config);
 
         if (!IMI.IMIconnect.isRegistered()) {
